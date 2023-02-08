@@ -28,12 +28,48 @@ nav {
 	padding: 2rem 0;
 }
 
+.cards {
+	width: 550px;
+	display: flex;
+	gap: 2rem;
+	padding: 1rem;
+	overflow-x: scroll;
+	position: relative;
+}
+
+.openSpots-status {
+	position: absolute;
+	width: 61px;
+	height: 20px;
+	left: 23px;
+	top: 23px;
+	background-color: #ffffff;
+	border-radius: 2px;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 10.24px;
+	line-height: 200%;
+	color: #222222;
+}
+
+.card-img {
+	width: 176px;
+	height: 235px;
+	margin-bottom: 10px;
+}
+
+.card-img img {
+	border-radius: 9px;
+}
+
 .card-info {
 	display: flex;
 	flex-direction: column;
 	gap: 6px;
+	font-size: 12px;
 }
 .card-stats {
+	display: flex;
 }
 
 .card-star img {

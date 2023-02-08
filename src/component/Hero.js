@@ -4,7 +4,7 @@ import heroImage from "../img/Group 77.png";
 function Hero() {
 	return (
 		<section className="section hero">
-			<img src={heroImage} />
+			<img src={heroImage} alt="hero" />
 			<div className="hero-texts">
 				<h2>Online Experiences</h2>
 				<p>

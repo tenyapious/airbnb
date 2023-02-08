@@ -5,7 +5,7 @@ function Nav() {
 	return (
 		<nav>
 			<h1 className="logo">
-				<img src={logo} />
+				<img src={logo} alt="logo" />
 			</h1>
 		</nav>
 	);
