@@ -3,19 +3,20 @@ import "./App.css";
 import Nav from "./component/Nav";
 import Hero from "./component/Hero";
 import Card from "./component/Card";
-import cards from "./data";
+import data from "./data";
 
 function App() {
-	console.log(cards);
-	const cardEle = cards.map((card) => {
+	const cardEle = data.map((card) => {
 		return <Card key={card.id.toString()} card={card} />;
 	});
-
 	return (
 		<div className="container">
 			<Nav />
 			<Hero />
 			<div className="cards">{cardEle}</div>
+			{/* <div className="cards">
+				<Card card={cards[0]} />
+			</div> */}
 		</div>
 	);
 }

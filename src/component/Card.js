@@ -8,7 +8,7 @@ function Card(props) {
 	} else if (props.card.location === "Online") {
 		openSpotsStatusText = "Online";
 	}
-	console.log(openSpotsStatusText);
+
 	return (
 		<div className="card">
 			{openSpotsStatusText && (
